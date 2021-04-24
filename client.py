@@ -23,4 +23,4 @@ def send(msg):
 
 while True:
     mess = input(":")
-    send(f'[{username}]: {mess}')
+    send(f'Message: [{username}]: {mess}')
